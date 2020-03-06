@@ -1,0 +1,25 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,description_json,cat_start_bg_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "cat_start_bg_png",
+			"type": "image",
+			"url": "assets/cat_start_bg.png"
+		}
+	]
+}
